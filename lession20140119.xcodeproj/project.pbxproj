@@ -21,6 +21,7 @@
 		A0A66A6A188C43FF00DF51A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A66A4C188C43FF00DF51A4 /* UIKit.framework */; };
 		A0A66A72188C43FF00DF51A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0A66A70188C43FF00DF51A4 /* InfoPlist.strings */; };
 		A0A66A74188C43FF00DF51A4 /* lession20140119Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A66A73188C43FF00DF51A4 /* lession20140119Tests.m */; };
+		A0A66A7F188C452300DF51A4 /* baby.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0A66A7E188C452300DF51A4 /* baby.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		A0A66A6F188C43FF00DF51A4 /* lession20140119Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "lession20140119Tests-Info.plist"; sourceTree = "<group>"; };
 		A0A66A71188C43FF00DF51A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A0A66A73188C43FF00DF51A4 /* lession20140119Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lession20140119Tests.m; sourceTree = "<group>"; };
+		A0A66A7E188C452300DF51A4 /* baby.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = baby.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		A0A66A4E188C43FF00DF51A4 /* lession20140119 */ = {
 			isa = PBXGroup;
 			children = (
+				A0A66A7D188C448F00DF51A4 /* Res */,
 				A0A66A57188C43FF00DF51A4 /* ScrollandImageAppDelegate.h */,
 				A0A66A58188C43FF00DF51A4 /* ScrollandImageAppDelegate.m */,
 				A0A66A5A188C43FF00DF51A4 /* Main.storyboard */,
@@ -150,6 +153,14 @@
 				A0A66A70188C43FF00DF51A4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0A66A7D188C448F00DF51A4 /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				A0A66A7E188C452300DF51A4 /* baby.jpg */,
+			);
+			name = Res;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +242,7 @@
 			files = (
 				A0A66A61188C43FF00DF51A4 /* Images.xcassets in Resources */,
 				A0A66A53188C43FF00DF51A4 /* InfoPlist.strings in Resources */,
+				A0A66A7F188C452300DF51A4 /* baby.jpg in Resources */,
 				A0A66A5C188C43FF00DF51A4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -382,6 +394,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "lession20140119/lession20140119-Prefix.pch";
 				INFOPLIST_FILE = "lession20140119/lession20140119-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -395,6 +408,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "lession20140119/lession20140119-Prefix.pch";
 				INFOPLIST_FILE = "lession20140119/lession20140119-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

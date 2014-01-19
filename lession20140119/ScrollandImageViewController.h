@@ -10,4 +10,11 @@
 
 @interface ScrollandImageViewController : UIViewController
 
+//@property (strong, nonatomic) IBOutlet UIImageView *myimage;
+@property (strong, nonatomic) IBOutlet UIScrollView *myscroll;
+@property (strong, nonatomic) IBOutlet UITextField *scrolltoX;
+@property (strong, nonatomic) IBOutlet UITextField *scrolltoY;
+@property (strong, nonatomic) IBOutlet UITextField *zoomtoX;
+@property (strong, nonatomic) IBOutlet UITextField *zoomtoY;
+
 @end
